@@ -11,7 +11,7 @@
   --background-tertiary-color: #000000;
 
   --primary-color: #8f0101;
-  --secondary-color: #B81515#;
+  --secondary-color: #B81515;
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
@@ -58,9 +58,30 @@ body {
   margin: 16px auto 32px;
 }
 
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--titles-weights);
+  font-size: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  line-height: 64px;
+
+}
+
 @media (max-width: 768px) {
   .section-title h2 {
     font-size: 32px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .button:hover {
+    background-color: var(--text-primary-color);
   }
 
 }
