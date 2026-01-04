@@ -22,8 +22,14 @@
 }
 
 /* CSS RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body, img, h1, p, fieldset, legend, label, textarea, button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
