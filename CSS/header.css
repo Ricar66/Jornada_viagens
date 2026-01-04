@@ -15,11 +15,11 @@ header{
  
 }
 
-.img-logo-mobile{
+.img-mobile{
     display: block;
 }
 
-.img-logo-desktop{
+.img-desktop{
     display: none;
 }
 
@@ -93,10 +93,10 @@ nav{
         height: 64px;
     }
     
-    .img-logo-mobile{
+    .img-mobile{
         display: none;
     }
-    .imglogo-desktop{
+    .img-desktop{
         display: block;
     }
 
@@ -107,7 +107,7 @@ nav{
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1990px) {
     header{
         padding: 38px 165px;
     }
