@@ -22,14 +22,45 @@
 }
 
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, textarea, button{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-} 
-
-body{
-    font-family: 'Montserrat', sans-serif;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weights);
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+}
