@@ -72,14 +72,14 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
   }
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .button:hover {
     background-color: var(--text-primary-color);
   }
