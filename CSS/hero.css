@@ -14,10 +14,24 @@
     line-height: 1.5;
 }
 
+@media screen and (min-width: 480px) {
+    .hero-img{
+        height: 500px;
+        background: url(../img/Hero-mobile.png) no-repeat ;
+        background-size: cover;
+    }
+
+    .hero h2{
+    padding: 88px 40px;
+    font-weight: var(--text-weight);
+    
+    }
+}
+
 @media screen and (min-width: 768px) {
     .hero-img{
         height: 620px;
-        background: url(../img/Hero-tablet.png) no-repeat;
+        background: url(../img/Hero-tablet.png) no-repeat ;
         background-size: cover;
     }
 
